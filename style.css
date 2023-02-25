@@ -1,0 +1,55 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+}
+img{
+    width: 300px;
+}
+
+nav>div>li>a{
+    text-decoration: none;
+    color: black;
+}
+
+li{
+    list-style: none;
+    border: solid 2px;
+    border-radius: 5px;
+    font-weight: 700;
+    padding: 5px;
+    
+}
+
+section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.imageProf{
+    width: 300px;
+    height: 250px;
+}
+p{
+    width: 40%;
+    justify-content: space-between;
+}
+h1{
+    margin: auto;
+    border: solid 4px red;
+    padding: 5px;
+}
+.mail{
+    width: 100px;
+}
+.title{
+    margin-bottom: 10px;
+}
+@media screen and(max-width: 680px){
+    
+    header{
+        background-color: red;
+    }
+}
